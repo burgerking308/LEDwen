@@ -1,0 +1,27 @@
+# 构建产物（编译生成，不提交）
+cmake-build-*/
+build/
+*.elf
+*.hex
+*.bin
+*.map
+*.o
+*.obj
+*.d
+*.su
+
+# IDE / 工具链本地配置
+.idea/
+.cproject
+.project
+.settings/
+.vscode/
+*.ioc.bak
+
+# 挪出工程的原 CubeMX 文件（保留在本地即可）
+LEDwen_unused/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
